@@ -3,7 +3,7 @@ const steps = [
     number: 1,
     title: "Choose a Topic",
     description:
-      "Select from safety, health, emotions, or digital citizenship—or let Spryte suggest based on your child's needs.",
+      "Select from safety, health, emotions, digital citizenship, or let Spryte suggest based on your child's needs.",
     color: "bg-primary",
   },
   {

@@ -36,7 +36,8 @@ export default function Hero() {
 
             <p className="text-xl text-gray-700 font-medium leading-relaxed max-w-2xl mx-auto lg:mx-0">
               Meet Spryte Pal. Your child's new AI friend who creates
-              personalized stories to teach safety, health, and kindness.
+              personalized stories to teach safety, health, kindness, and many
+              more life lessons.
               <span className="block mt-2 text-primary font-semibold">
                 Fun for them. Peace of mind for you.
               </span>
