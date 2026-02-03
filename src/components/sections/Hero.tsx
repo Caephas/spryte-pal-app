@@ -35,7 +35,7 @@ export default function Hero() {
             </h1>
 
             <p className="text-xl text-gray-700 font-medium leading-relaxed max-w-2xl mx-auto lg:mx-0">
-              Meet Spryte Pal—your child's new AI friend who creates
+              Meet Spryte Pal. Your child's new AI friend who creates
               personalized stories to teach safety, health, and kindness.
               <span className="block mt-2 text-primary font-semibold">
                 Fun for them. Peace of mind for you.
@@ -78,7 +78,7 @@ export default function Hero() {
               <img
                 src="https://mgx-backend-cdn.metadl.com/generate/images/904523/2026-01-15/6daef7b2-24c5-48b9-a8e5-4c884ddd0ed1.png"
                 alt="Spryte Pal Character"
-                className="w-full max-w-md lg:max-w-xl mx-auto drop-shadow-2xl animate-float"
+                className="w-full max-w-md lg:max-w-xl mx-auto drop-shadow-2xl animate-float rounded-3xl"
               />
             </div>
 

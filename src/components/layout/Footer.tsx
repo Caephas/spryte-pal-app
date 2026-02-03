@@ -47,11 +47,11 @@ export default function Footer() {
             <ul className="space-y-4 text-white/80">
               <li className="flex items-center gap-2 hover:text-white transition-colors">
                 <span className="w-1.5 h-1.5 rounded-full bg-accent"></span>
-                hello@sprytepal.com
+                <a href="mailto:hello@sprytepal.com">hello@sprytepal.com</a>
               </li>
               <li className="flex items-center gap-2 hover:text-white transition-colors">
                 <span className="w-1.5 h-1.5 rounded-full bg-accent"></span>
-                +1 (555) 123-4567
+                <a href="tel:+15551234567">+1 (555) 123-4567</a>
               </li>
             </ul>
           </div>

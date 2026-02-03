@@ -15,7 +15,7 @@ export default function Signup() {
   return (
     <section
       id="signup"
-      className="py-20 px-4 bg-gradient-to-b from-cream to-accent/10"
+      className="py-20 px-4 bg-linear-to-b from-cream to-accent/10"
     >
       <div className="container mx-auto max-w-2xl text-center">
         <h2 className="text-4xl md:text-5xl font-bold text-primary mb-6 font-display">
@@ -42,11 +42,11 @@ export default function Signup() {
               onChange={(e) => setEmail(e.target.value)}
               placeholder="Enter your email"
               required
-              className="flex-1 h-12 px-4 rounded-lg border-2 border-primary/20 focus:border-primary focus:outline-none transition-colors"
+              className="flex-1 h-full max-h-14 py-4 px-4 rounded-lg border-2 border-primary/20 focus:border-primary focus:outline-none transition-colors"
             />
             <button
               type="submit"
-              className="h-12 px-8 bg-primary hover:bg-secondary text-white font-bold rounded-lg transition-colors"
+              className="h-14 px-8 bg-primary hover:bg-secondary text-white font-bold rounded-lg transition-colors"
             >
               Join Waitlist
             </button>
