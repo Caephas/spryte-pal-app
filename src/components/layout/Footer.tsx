@@ -1,4 +1,5 @@
 import { Facebook, Twitter, Instagram, Linkedin } from "lucide-react";
+import Logo from "../ui/Logo";
 
 export default function Footer() {
   return (
@@ -6,9 +7,9 @@ export default function Footer() {
       <div className="container mx-auto max-w-6xl">
         <div className="grid md:grid-cols-4 gap-8 mb-12">
           <div className="col-span-1 md:col-span-2">
-            <h3 className="text-3xl font-bold mb-6 font-display tracking-tight">
-              Spryte Pal
-            </h3>
+            <a href="/" className="inline-block mb-6">
+              <Logo variant="white" className="h-10 w-auto" />
+            </a>
             <p className="text-white/80 max-w-md leading-relaxed mb-6">
               Empowering the next generation with AI-powered storytelling. We
               believe every story is an opportunity to learn, grow, and dream.

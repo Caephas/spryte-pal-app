@@ -1,13 +1,12 @@
+import Logo from "../ui/Logo";
+
 export default function Header() {
   return (
     <header className="fixed w-full top-0 z-50 bg-white/95 backdrop-blur-md border-b border-gray-100 transition-all duration-300">
       <div className="container mx-auto px-6 py-4 flex justify-between items-center max-w-7xl">
         <a href="/" className="flex items-center gap-2 group">
-          <span className="text-2xl md:text-3xl font-bold text-primary font-display tracking-tight group-hover:text-secondary transition-colors">
-            Spryte Pal
-          </span>
+          <Logo variant="default" className="h-10 md:h-12 w-auto" />
         </a>
-
         <nav className="hidden md:flex items-center gap-8 font-medium text-gray-600">
           <a
             href="#features"
