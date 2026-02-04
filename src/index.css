@@ -6,12 +6,14 @@
   --color-accent: #b7cf4f;
   --color-cream: #fffaee;
 
-  --font-display: "Erica One", cursive;
+  --font-display: "Fredoka", cursive;
   --font-body: "Montserrat", sans-serif;
 
   --animate-float: float 6s ease-in-out infinite;
   --animate-float-delayed: float 6s ease-in-out infinite 2s;
   --animate-spin-slow: spin 30s linear infinite;
+  --animate-fall-slow: fall 15s linear infinite;
+  --animate-sway-slow: sway 4s ease-in-out infinite alternate;
 }
 
 @keyframes float {
@@ -21,6 +23,24 @@
   }
   50% {
     transform: translateY(-20px);
+  }
+}
+
+@keyframes fall {
+  0% {
+    transform: translateY(-50px);
+  }
+  100% {
+    transform: translateY(110vh);
+  }
+}
+
+@keyframes sway {
+  0% {
+    transform: translateX(-20px) rotate(-10deg);
+  }
+  100% {
+    transform: translateX(20px) rotate(10deg);
   }
 }
 

@@ -7,10 +7,12 @@ import Stories from "./components/sections/Stories";
 import Privacy from "./components/sections/Privacy";
 import Investors from "./components/sections/Investors";
 import Signup from "./components/sections/Signup";
+import FallingElements from "./components/layout/FallingElements";
 
 function App() {
   return (
     <div className="min-h-screen bg-cream font-body antialiased text-gray-900 overflow-x-hidden">
+      <FallingElements />
       <Header />
       <main>
         <Hero />
